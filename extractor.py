@@ -26,7 +26,7 @@ class PDFContentExtractor:
 
 def main():
     parser = argparse.ArgumentParser(description="PDF Extractor")
-    parser.add_argument("--file", type=str, default="sample.pdf", help="Path to PDF")
+    parser.add_argument("--file", type=str, default="document_for_parsing.pdf", help="Path to PDF")
     args = parser.parse_args()
 
    # if args.sample:
