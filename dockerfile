@@ -30,4 +30,4 @@ USER appuser
 # Command to run the extractor
 # Use the --file argument so it's easy to override when running the container
 ENTRYPOINT ["python", "extractor.py"]
-CMD ["--file", "sample.pdf"]
+CMD ["--file", "document_for_parsing.pdf"]

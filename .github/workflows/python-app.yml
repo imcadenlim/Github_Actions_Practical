@@ -29,6 +29,9 @@ jobs:
     - name: Run Python Script
       run: |
         python extractor.py
+    - name: Build Docker image
+      run: |
+        docker build -t pdf-extractor .
     
           
   
